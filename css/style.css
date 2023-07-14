@@ -16,8 +16,19 @@ ul{
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
+    border: 1px solid #555;
 
 }
+ul li{
+
+    border-bottom: 1px solid #555;
+    text-align: center;
+}
+
+ul li:last-child{
+    border-bottom: none;
+}
+
 
 ul li a {
 
